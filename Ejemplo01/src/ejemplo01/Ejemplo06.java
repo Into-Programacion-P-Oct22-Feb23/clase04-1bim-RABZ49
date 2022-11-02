@@ -10,20 +10,24 @@ package ejemplo01;
  * @author reroes
  */
 public class Ejemplo06 {
+
     public static void main(String[] args) {
         // Uso de printf
         // f: formato
-        
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
-        
-        // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ nacimiento);
+
+        String nombreEstudiante = "Roberto ALejandro";
+        String apellidoEstudiante = "Bustamante Zapata";
+        int nacimiento = 2004;
+
+        // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
+        // nacimiento);
         // En printf; 
-        // usamos %s para reemplazar las cadenas, enteros, decimales
+        // usamos %s para reemplazar las cadenas, enteros, decimales, booleano
         // usamos %d para reemplazar los valores enteros
         // usamos %f para reemplazar los valore decimales
-        System.out.printf("%d\n\n%s\n\n%s\n", nacimiento, apellidoEstudiante, 
-                nacimiento);
+        // System.out.printf("%s\n\n%s\n\n%d\n", nombreEstudiante,
+        //        apellidoEstudiante, nacimiento);
+        System.out.printf("Nombre:%s\n\nApellido:%s\n\nNacimiento:%d\n", nombreEstudiante,
+                apellidoEstudiante, nacimiento);
     }
 }
